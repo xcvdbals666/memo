@@ -38,7 +38,7 @@ tasks.named('test') {
 }
 
 bootJar{
-	archivesBaseName = 'memo'
+	archiveBaseName = 'memo'
 	archiveFileName = 'memo.jar'
 	archiveVersion = "0.0.1"
 }
